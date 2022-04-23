@@ -1,0 +1,30 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 150vh;
+    background: linear-gradient(45deg, #172142, #42172e);
+}
+
+#container {
+    background: #f1f1f1;
+    width: 800px;
+    margin: 10px auto;
+    padding: 1em;
+}
+
+form {
+    margin: 10px;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+#essay {
+    display: grid;
+    grid-template: 100px 100px 1fr / 1fr 1fr;
+}
